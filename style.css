@@ -1,0 +1,39 @@
+body {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+  background-color: #000;
+}
+
+section {
+  padding: 50px;
+}
+
+#brillvvs {
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-image: url(asstes/back.PNG);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#brillvvs .ring {
+  width: 400px;
+}
+#brillvvs h2 {
+  color: gray;
+  position: absolute;
+  bottom: 10%;
+  margin-bottom: 10px;
+}
+#brillvvs .four {
+  width: 150px;
+  position: absolute;
+  bottom: 5%;
+}
+
+@media screen and (max-width: 992px) {
+  #brillvvs .ring {
+    width: 300px;
+  }
+}/*# sourceMappingURL=style.css.map */
